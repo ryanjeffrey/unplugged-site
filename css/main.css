@@ -97,11 +97,6 @@ footer {
   flex-flow: row wrap;
 }
 
-/* Header Styles */
-
-header {
-
-}
 
 header .content-wrapper {
   display: flex;
@@ -131,6 +126,8 @@ header nav ul li {
 
 
 /* ---------------- Mobile Styles - Homepage -----------------------*/
+
+/* Hero Area */
 
 .hero-area {
   display: flex;
@@ -192,7 +189,7 @@ features .features-item-description {
 
 /* Mobile Styles - Reviews section */
 
-reviews .reviews {
+.reviews {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -206,21 +203,21 @@ reviews .content-wrapper {
 
 /* ------------------- Mobile Styles - FAQ Page -------------------- */
 
-faq {
+.faq {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
-faq .content-wrapper {
+.faq .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
-faq .faq-content {
+.faq .faq-content {
 
 }
 
@@ -229,7 +226,7 @@ faq .faq-content {
 /* ------------------- Mobile Styles - About Page -------------------- */
 /* Mission */
 
-mission {
+.mission {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -256,18 +253,18 @@ map .figure {
 
 /* Contact */
 
-contact-section {
+.contact-section {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
-contact-section .content-wrapper {
+.contact-section .content-wrapper {
 
 }
 
-contact-section .contact-content {
+.contact-section .contact-content {
 
 }
 
@@ -298,18 +295,6 @@ footer address {
 
 }
 
-
-footer .social {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-footer .social-icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 footer .copyright {
 
