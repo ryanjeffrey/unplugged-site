@@ -87,6 +87,8 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   /* -------------- Base Header - Footer Styles --------------------- */
+
 header,
 footer {
   display: flex;
@@ -94,21 +96,108 @@ footer {
   align-items: center;
 }
 
-header content-wrapper {
+/* Header Styles */
+
+header {
+
+}
+
+header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.header-divider {
+
+}
+
 header nav {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 header nav ul {
   display: flex;
   list-style-type: none;
 }
+
+header nav ul li {
+
+}
+
+
+/* ---------------- Mobile Styles - Homepage -----------------------*/
+
+.hero-area {
+
+}
+
+section .content-wrapper {
+
+}
+
+aside {
+
+}
+
+aside .content-wrapper {
+
+}
+
+aside .form-description {
+
+}
+
+aside .form {
+
+}
+
+aside .text {
+
+}
+
+aside .button {
+
+}
+
+/* Mobile Styles - Features section */
+
+section .features {
+
+}
+
+section .features-items {
+
+}
+
+section .features-item-description {
+
+}
+
+/* Mobile Styles - Reviews section */
+
+section .reviews {
+
+}
+
+
+
+/* Footer Styles */
+
+footer .social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 /* ==========================================================================
    Helper classes
