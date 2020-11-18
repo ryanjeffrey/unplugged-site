@@ -94,6 +94,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 /* Header Styles */
@@ -106,6 +107,7 @@ header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 .header-divider {
@@ -115,7 +117,7 @@ header .content-wrapper {
 header nav {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  flex-flow: row wrap;
 }
 
 header nav ul {
@@ -131,7 +133,10 @@ header nav ul li {
 /* ---------------- Mobile Styles - Homepage -----------------------*/
 
 .hero-area {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 section .content-wrapper {
@@ -139,7 +144,10 @@ section .content-wrapper {
 }
 
 aside {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 aside .content-wrapper {
@@ -164,27 +172,138 @@ aside .button {
 
 /* Mobile Styles - Features section */
 
-section .features {
-
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
-section .features-items {
-
+features .features-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
-section .features-item-description {
+features .features-item-description {
 
 }
 
 /* Mobile Styles - Reviews section */
 
-section .reviews {
+reviews .reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+reviews .content-wrapper {
+
+}
+
+
+/* ------------------- Mobile Styles - FAQ Page -------------------- */
+
+faq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+faq .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+faq .faq-content {
 
 }
 
 
 
-/* Footer Styles */
+/* ------------------- Mobile Styles - About Page -------------------- */
+/* Mission */
+
+mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+mission .content-wrapper {
+
+}
+
+mission .mission-content {
+
+}
+
+/* Map */
+
+map {
+
+}
+
+map .figure {
+
+}
+
+/* Contact */
+
+contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+contact-section .content-wrapper {
+
+}
+
+contact-section .contact-content {
+
+}
+
+
+
+
+
+
+/* ---------------------- Footer Styles ------------------------------ */
+
+footer {
+
+}
+
+footer .content-wrapper {
+
+}
+
+footer .footer-content {
+
+}
+
+footer .contact {
+
+}
+
+footer address {
+
+}
+
+
+footer .social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 footer .social-icons {
   display: flex;
@@ -192,10 +311,8 @@ footer .social-icons {
   align-items: center;
 }
 
-footer .social {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+footer .copyright {
+
 }
 
 
