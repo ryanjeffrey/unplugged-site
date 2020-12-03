@@ -133,6 +133,12 @@ header nav ul {
   list-style-type: none;
   justify-content: space-around;
   width: 100%;
+  padding: 0;
+}
+
+header nav ul li {
+  font-size: 1.125em;
+  padding: 0 30px;
 }
 
 footer {
@@ -378,6 +384,8 @@ features p {
    Modify as content requires.
    ========================================================================== */
 
+/* ------------------------TABLET BREAKPOINT--------------------------------*/
+
 @media only screen and (min-width: 768px) {
   /*Tablet styles here*/
   .content-wrapper {
@@ -513,9 +521,60 @@ FAQ Page
   }
 
 
+/* ------------------------DESKTOP BREAKPOINT--------------------------------*/
 @media only screen and (min-width: 1200px) {
   /*Desktop styles here*/
+.content-wrapper {
+  max-width: 960px;
+}
+
+  /* Hero */
+.hero-area h1 {
+  width: 60%;
+}
+
+  /* Aside */
+aside .content-wrapper {
+  justify-content: space-around;
+}
+
+aside .content-wrapper .form-description,
+aside .content-wrapper .form {
+  width: 30%;
+}
+
+  /* Features */
+
+.features h2 {
+  width: 90%;
+}
+
+.features article {
+  flex-basis: 33%;
+}
+  
+  /* Reviews */
+.reviews article div {
+  width: 42%;
+}
+
+/* ==========================================================================
+  About Page
+========================================================================== */
+
+.mission h2,
+.contact-section .content-wrapper h2 {
+  width: 95%;
+}
+
+/* ==========================================================================
+  FAQ Page
+========================================================================== */
+.faq h2 {
+  width: 100%;
   }
+}
+
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
