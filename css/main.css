@@ -87,7 +87,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   /* General Styles */
+   /* Global Styles */
  
 html {
 	font-size: 16px;
@@ -112,13 +112,16 @@ a {
 h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
+  font-weight: 500;
 }
  
 h3, 
 h4 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.125em;
+  font-weight: 500;
   margin: 20px 0;
+
 }
  
 p {
@@ -127,11 +130,11 @@ p {
 }
  
 img {
- 
+  width: 100%;
 }
  
 figure {
- 
+  margin: 0;
 }
  
 address {
@@ -151,6 +154,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #202322;
 }
 
 header {
@@ -169,29 +173,36 @@ header .content-wrapper {
   width: 100%;
   height: 1px;
   margin: 10px 0 20px 0;
+  background: #3a3a3a;
 }
 
 header nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  width: 60%;
+  width: 100%;
+  font-size: 1.125em;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
-  width: 100%;
+  align-items: center;
+  flex-flow: row wrap;
   padding: 0;
 }
 
 header nav ul li {
   font-size: 1.125em;
-  padding: 0 30px;
+  padding: 0;
+  width: 25%;
 }
 
 footer {
+  text-align: center;
   flex-direction: column;
 }
 
@@ -344,7 +355,34 @@ features p {
   .faq .faq-content {
   
   }
-  
+
+/*--------------  INPUT ELEMENTS  -----------*/  
+
+  aside .form {
+    margin-top: 30px;
+  }
+   
+  input[type=text] {
+    box-sizing: border-box;
+    width: 100%;
+    color: #2a423a;
+    font-style: italic;
+    padding: 1em;
+  }
+   
+  input[type=button] {
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 20px;
+    background-color: #2a423a;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.125em;
+    color: #e2e3ed;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+  }
 
 /* ==========================================================================
    Helper classes
@@ -498,6 +536,7 @@ aside .content-wrapper .form {
 }
 
 /* Reviews */
+
 .reviews article {
   display: flex;
   justify-content: space-between;
@@ -572,6 +611,7 @@ FAQ Page
 
 
 /* ------------------------DESKTOP BREAKPOINT--------------------------------*/
+
 @media only screen and (min-width: 1200px) {
   /*Desktop styles here*/
 .content-wrapper {
