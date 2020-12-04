@@ -97,6 +97,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   text-align: left;
+  color: #e2e3ed;
 }
  
 ul, 
@@ -168,6 +169,7 @@ header .content-wrapper {
   flex-flow: row wrap;
   margin: 0;
 }
+
 
 .header-divider {
   width: 100%;
@@ -248,9 +250,17 @@ footer .copyright {
   flex-flow: row wrap;
 }
 
+.hero-area h1 {
+  font-size: 2.25em;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
 /* Aside */
 
 aside {
+  background-color: #527158;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -289,6 +299,7 @@ features p {
 /* Reviews */
 
 .reviews {
+  background-color: #2a423a;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -316,11 +327,8 @@ features p {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
-
-
-/* Map */
-
 
 
 /* Contact */
@@ -330,6 +338,7 @@ features p {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 
 
@@ -343,17 +352,23 @@ features p {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    background-color: #527158;
   }
   
   .faq .content-wrapper {
+    margin: 50px 0 0 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
   }
   
-  .faq .faq-content {
-  
+  .faq-content {
+    margin-bottom: 50px;
+  }
+
+  .faq-content h4 {
+    line-height: 1.333;
   }
 
 /*--------------  INPUT ELEMENTS  -----------*/  
@@ -507,6 +522,11 @@ header nav ul {
 
 /* Hero Area */
 
+.hero-area h1 {
+  font-size: 3em;
+  line-height: 1;
+  margin: 0;
+}
 /* Aside */
 aside .content-wrapper {
     margin: 50px 0;
