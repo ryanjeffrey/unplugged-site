@@ -362,6 +362,11 @@ features p {
     align-items: center;
     flex-flow: row wrap;
   }
+
+  .faq h2 {
+    margin-bottom: 40px;
+    line-height: 1;
+  }
   
   .faq-content {
     margin-bottom: 50px;
@@ -527,6 +532,7 @@ header nav ul {
   line-height: 1;
   margin: 0;
 }
+
 /* Aside */
 aside .content-wrapper {
     margin: 50px 0;
