@@ -170,6 +170,13 @@ header .content-wrapper {
   margin: 0;
 }
 
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
 .header-divider {
   width: 100%;
@@ -183,7 +190,7 @@ header nav {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  width: 100%;
+  width: 60%;
   font-size: 1.125em;
   font-weight: 700;
   text-transform: uppercase;
@@ -194,7 +201,7 @@ header nav ul {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
-  padding: 0;
+  width: 100%;
 }
 
 header nav ul li {
@@ -244,6 +251,9 @@ footer .copyright {
 /* Hero Area */
 
 .hero-area {
+  background: url('../img/hero.jpg') center no-repeat;
+  background-size: cover;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -267,10 +277,38 @@ aside {
   flex-flow: row wrap;
 }
 
+aside .form {
+  margin-top: 30px;
+}
+ 
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+ 
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 
 /* Features */
 
 .features {
+  background: url(../img/main-bg.jpg) center no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -292,8 +330,9 @@ aside {
   flex-flow: row wrap;
 }
 
-features p {
+.features p {
   margin: 0;
+  text-align: center;
 }
 
 /* Reviews */
@@ -374,34 +413,6 @@ features p {
 
   .faq-content h4 {
     line-height: 1.333;
-  }
-
-/*--------------  INPUT ELEMENTS  -----------*/  
-
-  aside .form {
-    margin-top: 30px;
-  }
-   
-  input[type=text] {
-    box-sizing: border-box;
-    width: 100%;
-    color: #2a423a;
-    font-style: italic;
-    padding: 1em;
-  }
-   
-  input[type=button] {
-    width: 100%;
-    padding: 20px 0;
-    margin-top: 20px;
-    background-color: #2a423a;
-    font-family: 'Poppins', Helvetica, Arial, sans-serif;
-    font-weight: 500;
-    font-size: 1.125em;
-    color: #e2e3ed;
-    border: none;
-    text-align: center;
-    text-transform: uppercase;
   }
 
 /* ==========================================================================
@@ -501,6 +512,16 @@ features p {
     margin: 100px 0;
 }
 
+h2 {
+  font-size: 2.25em;
+  line-height: 1.333;
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1.25;
+}
+
 /* Header */
 
 header {
@@ -511,6 +532,10 @@ header {
 header .content-wrapper {
   width: 100%;
   justify-content: space-between;
+}
+
+header figure {
+  width: 30%;
 }
 
 header nav {
@@ -526,6 +551,10 @@ header nav ul {
 }
 
 /* Hero Area */
+
+.hero-area {
+  min-height: 600px;
+}
 
 .hero-area h1 {
   font-size: 3em;
@@ -549,6 +578,10 @@ aside .content-wrapper .form {
 
 /* Features */
 
+.features h2 {
+  margin-bottom: 20px;
+}
+
 .features article {
   display: flex;
   justify-content: center;
@@ -566,6 +599,10 @@ aside .content-wrapper .form {
 .reviews article {
   display: flex;
   justify-content: space-between;
+}
+
+.reviews h2 {
+  width: 85%;
 }
 
 .reviews article div {
