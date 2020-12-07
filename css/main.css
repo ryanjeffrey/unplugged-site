@@ -194,6 +194,7 @@ header nav {
   font-size: 1.125em;
   font-weight: 700;
   text-transform: uppercase;
+  padding: 0;
 }
 
 header nav ul {
@@ -202,6 +203,7 @@ header nav ul {
   align-items: center;
   flex-flow: row wrap;
   width: 100%;
+  padding: 0;
 }
 
 header nav ul li {
@@ -323,6 +325,12 @@ input[type=button] {
   width: 63%;
   margin: 30px 0;
 }
+
+.features i {
+	font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
 .features .features-items {
   display: flex;
   justify-content: center;
