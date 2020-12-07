@@ -170,6 +170,7 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
+  width: 100%;
 }
 
 header figure {
@@ -211,7 +212,6 @@ header nav ul {
 header nav ul li {
   font-size: 1.125em;
   padding: 0;
-  width: 25%;
 }
 
 footer {
@@ -269,6 +269,10 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+}
+
+.hero-area .content-wrapper {
+  margin: 20px;
 }
 
 .hero-area h1 {
@@ -364,6 +368,7 @@ input[type=button] {
 
 .reviews h2 {
   margin-bottom: 40px;
+  line-height: 1;
 }
 
 .reviews h3 {
@@ -382,9 +387,9 @@ input[type=button] {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row wrap;
   background-color: #527158;
 }
+
 
 /* Map */
 
@@ -394,6 +399,7 @@ input[type=button] {
   padding-bottom: 125%;
   overflow: hidden;
   position: relative;
+  min-height: 400px;
 }
 
 .map iframe {
@@ -412,6 +418,10 @@ input[type=button] {
   align-items: center;
   flex-flow: row wrap;
   background-color: #2a423a;
+}
+
+.contact-section h2 {
+  line-height: 1.1;
 }
 
 .contact-content p {
@@ -445,7 +455,7 @@ input[type=button] {
   }
   
   .faq-content {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
 
   .faq-content h4 {
@@ -596,7 +606,7 @@ header nav ul {
 .hero-area h1 {
   font-size: 3em;
   line-height: 1;
-  margin: 0;
+  margin: 50px;
 }
 
 /* Aside */
@@ -704,10 +714,7 @@ FAQ Page
 .faq .content-wrapper {
   justify-content: space-between;
   }
-    
-.faq-content {
-  flex-basis: 40%;
-  }
+
  
 .faq h2 {
   width: 100%;
@@ -762,6 +769,11 @@ aside .content-wrapper .form {
 .mission h2,
 .contact-section .content-wrapper h2 {
   width: 95%;
+  font-size: 3em;
+}
+
+.contact-content h4 {
+  font-size: 1.875em;
 }
 
 /* ==========================================================================
