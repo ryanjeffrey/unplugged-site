@@ -272,7 +272,7 @@ footer .copyright {
 }
 
 .hero-area .content-wrapper {
-  margin: 20px;
+  margin: 30px;
 }
 
 .hero-area h1 {
@@ -290,6 +290,10 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+aside h3 {
+  margin-top: 0;
 }
 
 aside .form {
