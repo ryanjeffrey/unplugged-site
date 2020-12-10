@@ -395,6 +395,10 @@ input[type=button] {
   background-color: #527158;
 }
 
+.mission h2 {
+  line-height: 1.2;
+  font-size: 2.2em;
+}
 
 /* Map */
 
@@ -404,7 +408,7 @@ input[type=button] {
   padding-bottom: 125%;
   overflow: hidden;
   position: relative;
-  min-height: 400px;
+  max-height: 450px;
 }
 
 .map iframe {
@@ -447,7 +451,6 @@ input[type=button] {
   }
   
   .faq .content-wrapper {
-    margin: 50px 0 0 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -455,7 +458,7 @@ input[type=button] {
   }
 
   .faq h2 {
-    margin-bottom: 40px;
+    margin: 10px 0;
     line-height: 1;
   }
   
@@ -706,7 +709,7 @@ footer .social-icons {
 footer .copyright {
     width: 100%;
 }
-  }
+  
      
 /* ==========================================================================
 About Page
@@ -737,6 +740,9 @@ About Page
   align-items: flex-start;
   }
   
+.contact-content h4 {
+  font-size: 1.5em;
+}
 
 /* ==========================================================================
 FAQ Page
@@ -754,12 +760,7 @@ FAQ Page
   width: 100%;
 }
 
-.faq h4,
-.faq p {
-    font-size: .875em;
-    line-height: 1.125;
 }
-
 
 /* ------------------------DESKTOP BREAKPOINT--------------------------------*/
 
@@ -808,7 +809,7 @@ aside .content-wrapper .form {
 
 .mission h2,
 .contact-section .content-wrapper h2 {
-  width: 95%;
+  width: 90%;
   font-size: 3em;
 }
 
@@ -820,8 +821,9 @@ aside .content-wrapper .form {
   FAQ Page
 ========================================================================== */
 .faq h2 {
-  width: 100%;
+  font-size: 3em;
   }
+
 }
 
 /* ==========================================================================
